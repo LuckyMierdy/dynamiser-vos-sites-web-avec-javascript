@@ -1,0 +1,79 @@
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+}
+
+.black-white {
+  background: linear-gradient(90deg, rgb(235, 235, 235) 50%, white 50%);
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  text-decoration: none;
+  padding: 11px;
+  font-family: arial;
+  font-size: 1.5em;
+  color: rgb(255, 77, 71);
+  background: linear-gradient(90deg, rgb(235, 235, 235) 50%, white 50%);
+  border: none;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+}
+
+.current-player {
+  width: 120px;
+  height: 80px;
+  background-color: rgb(255, 77, 71);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.current, .score {
+  font-size: 1.5em;
+  margin: 5px;
+}
+
+.score {
+  color: white;
+}
+
+.total-score {
+  color: rgb(255, 77, 71);
+  font-size: 4em;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
+
+.player {
+  font-size: 2.5em;
+}
+
+.empty-box {
+  height: 150px;
+}
+
+.empty-box2 {
+  height: 75px;
+}
+
+#empty-box-p1, #empty-box-p2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5em;
+  color: rgb(0, 255, 0)
+}
